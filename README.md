@@ -127,4 +127,11 @@ Posible ejemplo y estructura de proyecto:
 Demo
 [Video Demo en GoogleDrive 🎬](https://drive.google.com/file/d/1_33aB9ssx6-AmGhL9zNtRERWgc9PkxP8/view?usp=sharing)
 
+---
 
+Al final deberás subir tus cambios a este repositorio en la rama **NestOlg**
+
+
+---
+
+**Mucho éxito !***
