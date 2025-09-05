@@ -124,7 +124,7 @@ Posible ejemplo y estructura de proyecto:
 
 
 
-Video Demo
-[![Mira el demo 🎬 ](https://github.com/user-attachments/assets/529d308e-a2e9-4814-891f-dfabae9a470b)]([https://www.youtube.com/watch?v=VIDEO_ID](https://drive.google.com/file/d/1_33aB9ssx6-AmGhL9zNtRERWgc9PkxP8/view?usp=sharing))
+Demo
+[Video Demo en GoogleDrive 🎬](https://drive.google.com/file/d/1_33aB9ssx6-AmGhL9zNtRERWgc9PkxP8/view?usp=sharing)
 
 
