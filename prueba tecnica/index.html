@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Médicos y Pacientes</title>
+    
+    <link rel="stylesheet" href="assets/scss/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Area de registro</h1>
+    </header>
+
+    <main>
+        <!-- Sección para Médicos -->
+        <section id="medicos">
+            <h2>Registrar Nuevo Médico</h2>
+            <form id="doctorForm">
+                <div>
+                    <label for="doctorNombre">Nombre:</label>
+                    <input type="text" id="doctorNombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="doctorCedula">Cédula:</label>
+                    <input type="text" id="doctorCedula" name="cedula" pattern="[0-9]+" title="Solo números" required>
+                </div>
+                <div>
+                    <label for="doctorEspecialidad">Especialidad:</label>
+                    <input type="text" id="doctorEspecialidad" name="especialidad" required>
+                </div>
+                <div>
+                    <label for="doctorEmail">Email:</label>
+                    <input type="email" id="doctorEmail" name="email" required>
+                </div>
+                <button type="submit" class="btn-primary">Registrar Médico</button>
+            </form>
+
+            <h3>Listado de Médicos</h3>
+            <table id="doctorsList">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Cédula</th>
+                        <th>Especialidad</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <hr> 
+
+        <!-- Sección para Pacientes -->
+        <section id="pacientes">
+            <h2>Registrar Nuevo Paciente</h2>
+            <form id="patientForm">
+                <div>
+                    <label for="patientNombre">Nombre:</label>
+                    <input type="text" id="patientNombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="patientFechaNacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="patientFechaNacimiento" name="fecha_nacimiento" required>
+                </div>
+                <div>
+                    <label for="patientMedicoId">Médico Asignado:</label>
+                    <select id="patientMedicoId" name="medico_id" required>
+                        <option value="">Selecciona un médico</option>
+                        <!-- Aquí se cargarán los médicos disponibles desde el backend -->
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Registrar Paciente</button>
+            </form>
+
+            <h3>Listado de Pacientes</h3>
+            <table id="patientsList">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Fecha Nacimiento</th>
+                        <th>Médico (ID)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; este codigo es unicamente para pruebas </p>
+    </footer>
+
+    <!-- Nuestro archivo JavaScript para la interactividad -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

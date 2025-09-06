@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "nombre": "prueba",
+        "cedula": "123456",
+        "especialidad": "cirujano",
+        "email": "prueba1234@gmail.com"
+    }
+]

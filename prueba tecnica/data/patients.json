@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "nombre": "prueba",
+        "fecha_nacimiento": "2001-12-16",
+        "medico_id": 1
+    }
+]
